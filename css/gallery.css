@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+section#gallery {
+    margin: 20px auto;
+    width: 80%;
+}
+
+figure {
+    margin: 20px auto;
+    width: 100%;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    margin: 0 10px;
+}
+
+ul li img {
+    cursor: pointer;
+    width: 240px;
+    height: 160px;
+    transition: filter 0.3s ease;
+}
+
+ul li img:hover {
+    filter: brightness(1.2);
+}
